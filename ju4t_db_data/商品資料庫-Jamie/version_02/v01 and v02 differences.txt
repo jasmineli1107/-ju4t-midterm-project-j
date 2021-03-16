@@ -1,0 +1,22 @@
+------ phone_shells -----
+- added shell_color_chn column to phone_shells
+- changed shell_color to shell_color_en
+
+
+----- phone_series -----
+- added UNIQUE to their value settings for columns series_name_chn and series_name_eng
+- added is_classic column
+
+----- phone_model_series -----
+-added ON DELETE CASCADE to series_id FOREIGN KEY
+
+----- phone_designs -----
+- added UNIQUE to their value settings for columns design_name_chn and design_name_eng
+- added columns stock_status and edit_date
+-added ON DELETE CASCADE to series_id FOREIGN KEY
+
+
+----- phone-back -----
+DELETED phone-back table
+
+

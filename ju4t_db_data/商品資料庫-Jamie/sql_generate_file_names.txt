@@ -1,0 +1,13 @@
+**注: 檔案名稱裡會將空白轉成hypen (-)
+
+Phone color
+${model}/${model簡稱}-${color}.png
+
+Phone cam color
+${model}/${model簡稱}-cam-${color}.png
+
+phone shell color  **shell圖案是全部型號共用
+shell-${shell_color}.png
+
+phone material  **設計圖案是全部型號共用
+${series_name_eng}/${design_name_chn}.png
